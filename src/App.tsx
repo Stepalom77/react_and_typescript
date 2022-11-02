@@ -1,10 +1,10 @@
 import './index.css';
-import UserSearch from './state/UserSearch';
+import EventComponent from './events/EventComponent';
 
 function App() {
   return (
     <div className="App">
-      <UserSearch/>
+      <EventComponent/>
     </div>
   );
 }
